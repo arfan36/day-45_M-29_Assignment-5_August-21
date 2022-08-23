@@ -15,6 +15,8 @@ document.getElementById('top-players').addEventListener('click', function (event
     }
 });
 
+// common function----------------------------------------
+// ------------------------------------------------------
 function getInputValueById(elementId) {
     const inputElement = document.getElementById(elementId);
     const inputAmountString = inputElement.value;
