@@ -8,8 +8,6 @@ document.getElementById('top-players').addEventListener('click', function (event
     }
     else {
 
-        // console.log(listContainer.childNodes[0]);
-        // else if(listContainer.childNodes)
         const li = document.createElement('li');
         li.innerText = playerName;
         event.target.parentNode.querySelector('.btn-select').disabled = true;
