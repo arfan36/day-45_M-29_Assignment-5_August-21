@@ -24,9 +24,6 @@ function getInputValueById(elementId) {
     if (isNaN(inputAmountString) || inputAmountString === '') {
         alert('Please give a number');
     }
-    // if(inputAmountString===''){
-    //     alert('Please give a number')
-    // }
     const inputAmount = parseFloat(inputAmountString);
     return inputAmount;
 }
